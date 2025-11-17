@@ -9,9 +9,9 @@ Outputs are saved to folders such as batch_output, advanced_batch_output, and ai
 ## Requirements
 Python 3.8+ (project was also tested with Python 3.7–3.11 for local Stable Diffusion GPU generation use a recent Python and CUDA-enabled PyTorch).
 
-customtkinter, Pillow, numpy, requests are required for the GUI and image processing.
+customtkinter, Pillow, numpy, libraries are required for the GUI and image processing.
 
-torch and diffusers are optional: required only for the local Stable Diffusion generation (ai_menu local mode). 
+torch and diffusers are required only for the local Stable Diffusion generation (ai_menu local mode). 
 
 ## File overview
 main.py - Application entry point and GUI orchestrator. Creates the main window, canvas and menu buttons, loads menu classes on demand, manages image stack, undo/redo, selection, drag & drop on canvas and overall state.
